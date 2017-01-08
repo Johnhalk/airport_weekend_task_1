@@ -25,7 +25,7 @@ describe AirportStation do
         end
       end
     end
-
+  
     describe "#taken_off?" do
 
       it { expect(subject).to respond_to(:taken_off?).with(1).argument}
